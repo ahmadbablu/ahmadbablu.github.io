@@ -1,0 +1,316 @@
+/*font-family: 'Balsamiq Sans', cursive;
+font-family: 'Fredoka One', cursive;
+ font-family: 'M PLUS 1p', sans-serif; */
+ /* #8b8e93 */
+ 
+ html {
+    scroll-behavior: smooth;
+  }
+ a{
+     text-decoration: none;
+     color: black;
+ }
+.nav-row{
+    font-size: 20px;
+    color: #797a7e;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.my-column{
+   padding-top: 100px;
+   padding-bottom: 50px;
+    text-align: center;
+    font-family: 'M PLUS 1p', sans-serif;
+}
+.custom-image{
+    width: 100%;
+    margin-top: 1.5rem;
+
+   }
+   .top-heading{
+       font-weight: 900;
+   }
+  .read-btn{
+     margin-top: 30px;
+  }
+.nav-item{
+    padding: 10px;
+}
+.popover-title {
+    color: blue;
+    font-size: 15px;
+}
+.popover-body{
+
+    font-size: 20px;
+}
+
+/* features */
+@import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+@import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+.specalities{ text-align: center; margin-top: 5rem; margin-bottom: 2.5rem;}
+
+.middle-container{margin-top: 6rem;}
+.box > .icon { text-align: center; position: relative; }
+.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #383e56; vertical-align: middle; }
+.box > .icon:hover > .image { background: #563d7c; }
+.box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
+.box > .icon:hover > .image > i { color: white !important; }
+.box > .icon > .info { margin-top: -30px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; }
+.box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: white; }
+.box > .icon > .info > h3.title { margin-top: 1.5rem; font-family: "Roboto",sans-serif !important; font-size: 16px; color: #222; font-weight: 500; }
+.box > .icon > .info > p { font-family: "Roboto",sans-serif !important; font-size: 13px; color: #666; line-height: 1.5em; margin: 20px;}
+.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #222; }
+.box > .icon > .info > .more a { font-family: "Roboto",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
+.box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: #563d7c; }
+.box .space { height: 30px; }
+
+
+
+/* about me */
+body{margin-top:20px;}
+
+.my-details {
+    padding-top: 80px;
+    padding-bottom: 80px
+}
+
+@media (min-width:992px) {
+    .my-details {
+        padding-top: 100px;
+        padding-bottom: 100px
+    }
+}
+
+.my-details .my_designation {
+    margin-bottom: 30px
+}
+
+.my-details .my_designation h2 {
+    margin-bottom: 5px;
+    margin-top: 25px
+}
+
+@media (min-width:768px) {
+    .my-details .my_designation h2 {
+        margin-top: 0
+    }
+}
+
+.my-details .my_designation span {
+    font-style: italic
+}
+
+.my-details .member_desc li {
+    display: block;
+    float: unset;
+    width: 100%
+}
+
+.my-details .member_desc li i {
+    color: #0cc652;
+    font-size: 14px
+}
+
+.my-details .member_desc h4 {
+    margin-top: 40px
+}
+
+.my-details .member_desc p {
+    margin-top: 10px
+}
+
+.my-details .member_desc .progress-holder {
+    margin-top: 30px
+}
+
+.my-details .media-box {
+    margin-bottom: 20px
+}
+
+@media (min-width:992px) {
+    .my-details .media-box {
+        margin-bottom: 0
+    }
+}
+
+.my-details .member_contact {
+    padding: 40px;
+    position: relative;
+    margin-top: 40px
+}
+
+.my-details .member_contact .media-icon {
+    font-size: 32px;
+    color: #dae0e6;
+    position: relative;
+    width: 30px;
+    text-align: center;
+    float: left;
+    margin-right: 15px
+}
+
+.my-details .member_contact .media-content {
+    padding-left: 0;
+    float: left
+}
+
+.my-details .member_contact .media-content h5 {
+    font-size: 15px
+}
+
+.my-details .member_contact .media-content h5,
+.my-details .member_contact .media-content a {
+    color: #dae0e6
+}
+
+@media (min-width:992px) {
+    .my-details .member_contact .social-icons {
+        text-align: right
+    }
+}
+
+.my-details .member_contact .social-icons .btn-social {
+    width: 40px;
+    height: 40px;
+    line-height: 40px
+}
+
+.my-details .member_contact .social-icons .btn {
+    background-color: transparent;
+    border: 1px solid;
+    border-color: #999;
+    color: #dae0e6
+}
+
+.my-details .member_contact .social-icons .btn:hover {
+    background-color: #0cc652;
+    border-color: #0cc652;
+    opacity: 1
+}
+
+.bg-image-holder,
+.bg-image {
+    background-size: cover!important;
+    background-position: 50% 0!important;
+    transition: all .3s linear;
+    background: #f5f5f6;
+    position: relative
+}
+
+.bg-image:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7)
+}
+
+.bg-fixed {
+    background-attachment: fixed
+}
+
+.bg-image .overlay-content {
+    position: relative;
+    z-index: 5
+}
+
+
+.progress-holder {
+    margin-top: 50px
+}
+
+.progress-holder .barWrapper .progressText {
+    font-size: 15px;
+    color: #222
+}
+
+.progress-holder .progress {
+    margin-bottom: 25px;
+    margin-top: 10px;
+    overflow: visible;
+    background-color: #f5f5f6
+}
+
+.progress-holder .progress .progress-bar {
+    position: relative
+}
+
+.progress-holder .progress .progress-bar:after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 33px;
+    background-color: #0cc652;
+    top: -8px;
+    right: 0;
+    z-index: 55
+}
+
+.img-full {
+    width: 100%;
+}
+
+.about-p {
+    color: black;
+    font-weight: 600;
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+
+.styled_list {
+    margin-top: 15px;
+    position: relative;
+    display: inline-block
+}
+
+@media (min-width:768px) {
+    .styled_list {
+        margin-top: 15px
+    }
+}
+
+.styled_list li {
+    font-size: 14px;
+    line-height: 30px
+}
+
+@media (min-width:768px) {
+    .styled_list li {
+        font-size: 14px;
+        float: left;
+        width: 50%
+    }
+}
+
+.styled_list li i {
+    margin-right: 10px;
+    font-size: 12px
+}
+
+.styled_list li a {
+    color: #8b8e93
+}
+
+@media (min-width:768px) {
+    .styled_list li a {
+        font-size: 12px
+    }
+}
+
+@media (min-width:992px) {
+    .styled_list li a {
+        font-size: 14px
+    }
+}
+
+ol.styled_list {
+    margin-left: 15px
+}
+
+ol.styled_list li {
+    padding-left: 10px
+}
